@@ -1,0 +1,67 @@
+
+
+/* Mobile */
+@media (max-width: 739px) {
+    .navbar-search__icon {
+        left: 20px;
+        padding: 8px;
+    }
+
+    .navbar-search__icon:focus{
+        opacity: 1;
+    }
+
+    .navbar-search__input {
+        display: none;
+        position: absolute;
+        top: calc(var(--height)/2 + 2px);
+        right: -50%;
+        padding: 16px;
+        min-width: 250px;
+    }
+    
+    .navbar-right__login {
+        display: none;
+    }
+   
+}
+
+/* Table */
+@media (min-width: 740px) and (max-height:1023px) { 
+    
+}
+
+/* PC */
+@media (min-width:1024px) {
+    .mobile-navbar-left__bars {
+        display: none;
+    }
+}
+
+/* Mobile and Table */ 
+@media (max-width:1023px) {
+    .navbar {
+        padding: 0 16px;
+        --height: 48px;
+    }
+
+    .navbar-left__logo,
+    .navbar-left__heading {
+        display: none;
+    }
+
+    .mobile-navbar-left__bars {
+        display: block;
+    }
+
+    .navbar-right {
+        justify-content: start;
+    }
+
+    .navbar-right__user {
+        display: none;
+    }
+
+
+
+}

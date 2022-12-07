@@ -1,0 +1,44 @@
+.btn {
+    background-color: #019160;
+    border-radius: 4px;
+    height: 40px;
+    color: #fff;
+    padding: 0 24px 0 24px;
+    text-align: center;
+    border: none;
+    min-width: 100px;
+    cursor: pointer;
+    outline: none;
+}
+
+
+
+.btn:hover,
+.btn:focus {
+    opacity: 0.8;
+}
+
+.btn:active {
+    opacity: 0.5;
+}
+
+.btn__icon {
+    padding: 0 16px;
+    background-repeat: no-repeat;
+    background-position-x: 16px;
+    background-position-y: center;
+    background-size: 16px 16px;
+    padding-left: 40px;
+}
+
+.btn-orange {
+    color: #fff;
+    background-color: var(--orange);
+    border-radius: 4px;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: var(--success);
+    border-radius: 4px;
+}
